@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yfyfyufeng.github.io</id>
+    <title>YF&apos;s Pages</title>
+    <updated>2025-01-14T13:49:39.290Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://yfyfyufeng.github.io"/>
+    <link rel="self" href="https://yfyfyufeng.github.io/atom.xml"/>
+    <subtitle>the digital garden of YF</subtitle>
+    <logo>https://yfyfyufeng.github.io/images/avatar.png</logo>
+    <icon>https://yfyfyufeng.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2025, YF&apos;s Pages</rights>
+    <entry>
+        <title type="html"><![CDATA[Quick links🔗]]></title>
+        <id>https://yfyfyufeng.github.io/post/quick links/</id>
+        <link href="https://yfyfyufeng.github.io/post/quick links/">
+        </link>
+        <updated>2025-01-12T08:48:57.000Z</updated>
+        <content type="html"><![CDATA[<p>All of the following links are for personal use. These links may be inaccessible. The copyright information can be found in the GitHub repository.&quot;</p>
+<h2 id="gemini-pro-chat"><a href="https://gemini-pro-chat-yfs-projects-11e86e73.vercel.app">Gemini Pro Chat</a></h2>
+<p>start a free chat with Gemini-pro.<br>
+<a href="https://github.com/babaohuang/GeminiProChat">girhub repository</a></p>
+<h2 id="chat-with-cuhksz"><a href="http://10.31.37.135:8090">Chat with CUHKSZ</a></h2>
+<p>an agent with multiple CUHKSZ campus systems connected.<br>
+<a href="https://github.com/BetterAndBetterII/Chat-With-CUHKSZ">girhub repository</a></p>
+<h2 id="the-reader"><a href="http://10.31.37.135:8000/?page=reader">The Reader</a></h2>
+<p>a document reader powered by Gemini AI.<br>
+<a href="https://github.com/BetterAndBetterII/TheReader">girhub repository</a></p>
+<h2 id="open-webui"><a href="http://10.31.37.135:3000/">Open Webui</a></h2>
+<p>an edge-based large model playground.<br>
+<a href="https://github.com/open-webui/open-webui">girhub repository</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introduction👋]]></title>
+        <id>https://yfyfyufeng.github.io/post/Introduction/</id>
+        <link href="https://yfyfyufeng.github.io/post/Introduction/">
+        </link>
+        <updated>2025-01-12T08:28:42.000Z</updated>
+        <content type="html"><![CDATA[<p>Hi, I'm YF 👋<br>
+Welcome to my personal page! I'm a passionate and curious Computer Science and Engineering undergraduate student at CUHK-SZ with a strong interest in OR, machine learning and agents. I love tackling complex problems and building solutions that make an impact💡.</p>
+<p>Feel free to check out my repositories and projects! 😄</p>
+]]></content>
+    </entry>
+</feed>

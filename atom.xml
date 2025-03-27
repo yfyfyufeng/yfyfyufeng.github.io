@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yfyfyufeng.github.io</id>
+    <title>YF&apos;s Pages</title>
+    <updated>2025-03-27T07:11:27.596Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://yfyfyufeng.github.io"/>
+    <link rel="self" href="https://yfyfyufeng.github.io/atom.xml"/>
+    <subtitle>the digital garden of YF</subtitle>
+    <logo>https://yfyfyufeng.github.io/images/avatar.png</logo>
+    <icon>https://yfyfyufeng.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2025, YF&apos;s Pages</rights>
+    <entry>
+        <title type="html"><![CDATA[Introduction👋]]></title>
+        <id>https://yfyfyufeng.github.io/post/Introduction/</id>
+        <link href="https://yfyfyufeng.github.io/post/Introduction/">
+        </link>
+        <updated>2025-01-12T08:28:42.000Z</updated>
+        <content type="html"><![CDATA[<p>Hi, I'm YF 👋<br>
+Welcome to my personal page! I'm a passionate and curious Computer Science and Engineering undergraduate student at CUHK-SZ with a strong interest in OR, machine learning and agents. I love tackling complex problems and building solutions that make an impact💡.</p>
+<p>Feel free to check out my repositories and projects! 😄</p>
+]]></content>
+    </entry>
+</feed>

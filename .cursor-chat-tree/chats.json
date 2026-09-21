@@ -1,0 +1,22 @@
+{
+  "id": "root",
+  "title": "yfyfyufeng.github.io",
+  "createdAt": 1789996903589,
+  "children": [
+    {
+      "id": "166b076f-a490-4387-977e-47181e07781e",
+      "parentId": "root",
+      "title": "Website restart process",
+      "createdAt": 1790004086819,
+      "children": [],
+      "summary": "Read .nojekyll, .gitignore, index.html, README.md",
+      "status": "completed",
+      "kind": "composer",
+      "composerId": "166b076f-a490-4387-977e-47181e07781e",
+      "source": "cursor"
+    }
+  ],
+  "status": "active",
+  "kind": "workspace-root",
+  "source": "cursor"
+}

@@ -1,0 +1,54 @@
+:root { --text:#222; --muted:#666; --line:#dedede; --link:#1f5a96; --width:920px; }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; color:var(--text); background:#fff; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; line-height:1.65; }
+a { color:var(--link); text-decoration:none; }
+a:hover { text-decoration:underline; }
+.site-header, main, footer { width:min(calc(100% - 40px),var(--width)); margin:0 auto; }
+.site-header { min-height:72px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); }
+.name { color:var(--text); font:700 21px Georgia,"Times New Roman",serif; }
+nav { display:flex; gap:24px; font-size:14px; }
+nav a { color:#444; }
+main { padding:52px 0 64px; }
+.intro { display:grid; grid-template-columns:170px 1fr; gap:36px; align-items:start; padding-bottom:42px; }
+.portrait { width:170px; height:210px; object-fit:cover; border-radius:3px; }
+h1,h2,h3 { font-family:Georgia,"Times New Roman",serif; }
+h1 { margin:-5px 0 2px; font-size:38px; line-height:1.2; }
+.role { margin:0 0 18px; color:var(--muted); font-size:18px; }
+.intro p:not(.role):not(.links) { margin:0 0 12px; }
+.links { margin:20px 0 0; display:flex; gap:18px; font-weight:600; }
+section:not(.intro) { padding:34px 0; border-top:1px solid var(--line); }
+h2 { margin:0 0 22px; font-size:25px; }
+h3 { margin:0 0 4px; font-size:18px; line-height:1.4; }
+h3 span { color:var(--muted); font-size:15px; font-weight:400; }
+.entry { margin-bottom:24px; }
+.entry:last-child { margin-bottom:0; }
+.entry p { margin:4px 0; }
+.publication-note { color:#555; font-size:15px; }
+.advisor { color:var(--muted); font-size:14px; }
+.project-links { font-size:14px; }
+.split { display:flex; justify-content:space-between; gap:24px; }
+.split time { flex:0 0 auto; color:var(--muted); font-size:14px; text-align:right; }
+.institution-entry { display:grid; grid-template-columns:76px minmax(0,1fr) auto; align-items:start; gap:20px; }
+.institution-logo { width:68px; height:68px; object-fit:contain; object-position:center; }
+.cuhksz-logo { height:58px; margin-top:2px; }
+.szms-logo { height:64px; }
+.institution-copy { min-width:0; }
+section ul { margin:0; padding-left:22px; }
+footer { display:flex; justify-content:space-between; padding:22px 0 36px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+
+@media(max-width:680px) {
+  .site-header { align-items:flex-start; flex-direction:column; gap:12px; padding:18px 0; }
+  nav { display:flex; flex-wrap:wrap; gap:8px 18px; line-height:1.4; }
+  main { padding-top:34px; }
+  .intro { grid-template-columns:1fr; gap:24px; }
+  .portrait { width:145px; height:180px; }
+  h1 { font-size:34px; }
+  .split { display:block; }
+  .split time { display:block; text-align:left; margin-top:5px; }
+  .institution-entry { display:grid; grid-template-columns:58px 1fr; gap:16px; }
+  .institution-logo { width:52px; height:52px; }
+  .institution-entry time { grid-column:2; margin-top:0; }
+  footer { display:block; }
+  footer span { display:block; }
+}

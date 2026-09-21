@@ -1,149 +1,78 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" >
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Yufeng Lin is a Computer Science undergraduate and AI researcher working on LLM agents, human–AI interaction, AI for science, and operations research." />
+  <meta property="og:title" content="Yufeng Lin — Computer Science Undergraduate and Researcher" />
+  <meta property="og:description" content="Research on LLM agents, human–AI interaction, AI for science, and operations research." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yfyfyufeng.github.io/" />
+  <meta property="og:image" content="https://yfyfyufeng.github.io/assets/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Yufeng Lin — Computer Science Undergraduate and Researcher" />
+  <meta name="twitter:description" content="Research on LLM agents, human–AI interaction, AI for science, and operations research." />
+  <meta name="twitter:image" content="https://yfyfyufeng.github.io/assets/og.png" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <title>Yufeng Lin</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="name" href="#top">Yufeng Lin</a>
+    <nav aria-label="Primary navigation">
+      <a href="#research">Selected Research</a><a href="#projects">Selected Projects</a>
+      <a href="#experience">Research Experience</a><a href="#education">Education</a>
+    </nav>
+  </header>
 
-<title>YF&#39;s Pages</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://yfyfyufeng.github.io/favicon.ico?v=1743059391325">
-<link rel="stylesheet" href="https://yfyfyufeng.github.io/styles/main.css">
-
-
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-
-    <meta name="description" content="the digital garden of YF">
-    
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://yfyfyufeng.github.io">
-        <img src="https://yfyfyufeng.github.io/images/avatar.png?v=1743059391325" class="site-logo">
-        <h1 class="site-title">YF&#39;s Pages</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
+  <main id="top">
+    <section class="intro">
+      <img class="portrait" src="assets/profile.jpg" alt="Yufeng Lin" />
+      <div>
+        <h1>Yufeng Lin</h1>
+        <p class="role">Computer Science Undergraduate and Researcher</p>
+        <p>I am a fourth-year undergraduate in Computer Science and Engineering at The Chinese University of Hong Kong, Shenzhen. I am currently advised by Prof. Chenhao Tan (Chicago Human + AI Lab, University of Chicago) and Prof. Benyou Wang (The Chinese University of Hong Kong, Shenzhen).</p>
+        <p>My research interests include natural language processing, LLM agents, human–AI interaction, AI for science, and operations research.</p>
+        <p class="links"><a href="mailto:yufenglin@link.cuhk.edu.cn">Email</a><a href="https://github.com/yfyfyufeng" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/yufenglin-426a4432b" target="_blank" rel="noopener">LinkedIn</a></p>
       </div>
-    </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            Home
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            Archives
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            Tags
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            About
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-          <a class="social-link" href="https://github.com/yfyfyufeng" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      the digital garden of YF
-    </div>
-    <div class="site-footer">
-      Shenzhen, China | <a class="rss" href="https://yfyfyufeng.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
+    </section>
 
+    <section id="research">
+      <h2>Selected Research</h2>
+      <article class="entry"><h3>Self-Evolving Knowledge System <span>Project Lead, 2026 – present</span></h3><p>A human-in-the-loop framework for evolving domain-specific knowledge bases, supported by automated data generation and a RAG-based knowledge system.</p><p class="advisor">Advised by Prof. Benyou Wang, The Chinese University of Hong Kong, Shenzhen.</p></article>
+      <article class="entry"><h3>Certified Evaluation for LLMs in Optimization Modeling <span>2026</span></h3><p>Developed methods for rigorously evaluating whether LLM-generated optimization formulations are equivalent, extending evaluation from graph isomorphism to formulation isomorphism.</p><p class="publication-note"><a href="https://icml.cc/virtual/2026/68291" target="_blank" rel="noopener">Certified Evaluation for LLMs in Optimization Modeling: From Graph Isomorphism to Formulation Isomorphism</a>. <em>ICML 2026 Workshop on Combining Theory and Benchmarks (CTB)</em>, poster presentation.</p><p class="advisor">Advised by Prof. Ruoyu Sun, The Chinese University of Hong Kong, Shenzhen.</p></article>
+      <article class="entry"><h3>LLMs for Scientific Ideation and Hypothesis Generation <span>2025</span></h3><p>Explored heuristic-based ideation and hierarchical methods for automated scientific hypothesis generation at the Chicago Human + AI Lab.</p><p class="advisor">Advised by Prof. Chenhao Tan, University of Chicago.</p></article>
+      <article class="entry"><h3>LLMs for Operations Research Modeling <span>Project Lead, 2024</span></h3><p>Designed and developed an autonomous operations research modeling agent with a bottom-up framework and a dedicated debugging solver group for reliable model formulation.</p><p class="advisor">Advised by Prof. Ruoyu Sun, The Chinese University of Hong Kong, Shenzhen.</p></article>
+    </section>
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://yfyfyufeng.github.io/post/Introduction/">
-                  <h2 class="post-title">Introduction👋</h2>
-                </a>
-                <div class="post-date">
-                  2025-01-12
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
+    <section id="projects">
+      <h2>Selected Projects</h2>
+      <article class="entry"><h3><a href="https://github.com/yfyfyufeng/Phoenix-Agent" target="_blank" rel="noopener">Phoenix-Agent</a> <span>Project Lead, 2026</span></h3><p>A hierarchical LLM-agent architecture in which a global orchestrator coordinates specialized search, coding, and analysis workflows. The system achieved 73.6% accuracy on GAIA Level 1 without task-specific fine-tuning and was deployed in a campus environment to integrate multiple university services.</p><p class="project-links"><a href="https://mp.weixin.qq.com/s/SaqsnzkC9GckRyK0R8RnXg" target="_blank" rel="noopener">WeChat project announcement &amp; demo (Chinese)</a></p></article>
+      <article class="entry"><h3>AI Q&amp;A Tutor <span>Project Lead, 2026</span></h3><p>A campus knowledge assistant for student questions, deployed at CUHK-Shenzhen to help students navigate university life and access campus information.</p><p class="project-links"><a href="https://mp.weixin.qq.com/s/loUVRjL5uiM5M54dW9z_nA" target="_blank" rel="noopener">WeChat project announcement &amp; demo (Chinese)</a></p></article>
+      <article class="entry"><h3>DualSight <span>Co-leader, 2026</span></h3><p>A vision-language GUI agent that parses screenshots into structured interface elements and selects actions from natural-language instructions.</p></article>
+      <article class="entry"><h3><a href="https://github.com/TeenSpirit1107/BranchCoder" target="_blank" rel="noopener">Branch Coder</a> <span>Co-leader, 2025</span></h3><p>A VS Code coding agent with workspace-aware RAG, semantic code indexing, MCP tools, and parallel execution workflows.</p></article>
+      <article class="entry"><h3><a href="https://github.com/BetterAndBetterII/Chat-With-CUHKSZ" target="_blank" rel="noopener">Chat with CUHKSZ</a> <span>2024</span></h3><p>A C++ campus agent integrating student services such as course schedules, grades, library resources, email, Blackboard content, venue booking, and email actions.</p></article>
+    </section>
 
-          <div class="pagination-container">
-  
-  
-</div>
+    <section id="experience">
+      <h2>Research Experience</h2>
+      <article class="entry split institution-entry"><img class="institution-logo uchicago-logo" src="assets/uchicago-logo.png" alt="University of Chicago coat of arms" /><div class="institution-copy"><h3>Research Intern, Chicago Human + AI Lab, University of Chicago</h3><p>Summer Research Fellowship, Department of Computer Science</p><p>Conducted research on LLM agents and scientific ideation under the supervision of Prof. Chenhao Tan.</p></div><time>Summer 2025 &amp; 2026</time></article>
+      <article class="entry split institution-entry"><img class="institution-logo cuhksz-logo" src="assets/cuhksz-logo.png" alt="The Chinese University of Hong Kong, Shenzhen logo" /><div class="institution-copy"><h3>Research Assistant, The Chinese University of Hong Kong, Shenzhen</h3><p>Conducted research on LLM agents and self-evolving knowledge systems under the supervision of Prof. Benyou Wang.</p></div><time>Spring 2026</time></article>
+    </section>
 
-        </div>
-      </div>
-    </div>
+    <section id="education">
+      <h2>Education</h2>
+      <article class="entry split institution-entry"><img class="institution-logo cuhksz-logo" src="assets/cuhksz-logo.png" alt="The Chinese University of Hong Kong, Shenzhen logo" /><div class="institution-copy"><h3>The Chinese University of Hong Kong, Shenzhen</h3><p>B.Eng. in Computer Science and Engineering, School of Data Science</p><p>CGPA: 3.953/4.0; ranked 1st of 376 students in the School of Data Science.</p></div><time>2023 – 2027 (expected)</time></article>
+      <article class="entry split institution-entry"><img class="institution-logo szms-logo" src="assets/szms-logo.png" alt="Shenzhen Middle School logo" /><div class="institution-copy"><h3>Shenzhen Middle School</h3></div><time>2017 – 2023</time></article>
+    </section>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
+    <section id="honors">
+      <h2>Honors &amp; Service</h2>
+      <ul><li>Academic Performance Scholarship, 2023–2024 and 2024–2025</li><li>Dean’s List, 2023–2024 and 2024–2025</li><li>Peer Advisor, School of Data Science, 2024–2026</li><li>Founding Member, AI Association of CUHKSZ</li></ul>
+    </section>
+  </main>
 
-AOS.init();
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad()
-  </script>
-
-
-
-
-
-  </body>
+  <footer><span>Yufeng Lin</span><span>Last updated September 2026</span></footer>
+</body>
 </html>
